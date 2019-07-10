@@ -52,7 +52,7 @@ Therefore the agents can be executed without the critics during execution time.
 In my tennis-play-notebook we can see, that only the weights of the actors are loaded.
 The non-stationary-problem can be avoided with this algorithm.
 
-#### Visual depiction of the MADDPG-Algorithm
+#### Visual depiction of the MADDPG-Algorithm (taken from mentioned paper "1706.02275.pdf")
 In the following two pictures you can see first an overview over the MADDPG-process
 and second the MADDP pseudocode.
 
@@ -65,12 +65,11 @@ Description of this overview:
 * Q_1, Q_2 are the Q-Values generated from the Critic-Networks.
 These generated information are used to update the network-parameters.
 
-![MADDPG_Functional_Overview](./MADDPG_Science_Paper_Picture.PNG)
+![MADDPG_Functional_Overview](./maddpg_process.PNG)
 
 ##### MADDPG --> pseudocode
-Pseudocode below taken from Paper 02275
 
-![MADDPG_Algorithm](./MADDPG_PseudoCode.PNG)
+![MADDPG_Algorithm](./maddpg_pseudoCode.PNG)
 
 #### Neural Network Architecture
 
@@ -140,12 +139,12 @@ Below I added  3 different learning-levels of the Tennis-Players <br/> <br/>
 **Training level 1:** (poore player) <br/>
 The actor of player one is trained with a score-target of 0.1 <br/>
 The actor of player two is trained with a score-target of 0.1
-<img src="./TennisPlayer_Level_01.gif" width="50%" align="top-left" alt="" title="Tennis-Player" />
+<img src="./TennisPlayerLevel01.gif" width="50%" align="top-left" alt="" title="Tennis-Player" />
 
 **Training level 2:** (medium player with mixed levels) <br/>
 The actor of player one is trained with a score-target of 0.1 <br/>
 The actor of player two is trained with a score-target of 0.3 <br/>
-<img src="./TennisPlayer_Level_02.gif" width="50%" align="top-left" alt="" title="Tennis-Player" /> <br/>
+<img src="./TennisPlayerLevel02.gif" width="50%" align="top-left" alt="" title="Tennis-Player" /> <br/>
 
 
 
@@ -154,7 +153,7 @@ The actor of player two is trained with a score-target of 0.3 <br/>
 The actor of player one is trained with a score-target of 0.5 <br/>
 The actor of player two is trained with a score-target of 0.5<br/>
 
-<img src="./TennisPlayer_Level_03.gif" width="50%" align="top-left" alt="" title="Tennis-Player" />
+<img src="./TennisPlayerLevel03.gif" width="50%" align="top-left" alt="" title="Tennis-Player" />
 <br/>
 <br/>
 

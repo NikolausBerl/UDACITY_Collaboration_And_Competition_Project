@@ -66,10 +66,10 @@ Description of this overview:
 These generated information are used to update the network-parameters.
 
 
-![MADDPG_Functional_Overview](MADDPG_Science_Paper_Picture.png)
+![MADDPG_Functional_Overview](MADDPG_Science_Paper_Picture.PNG)
 
 ##### MADDPG --> pseudocode
-![MADDPG_Algorithm](MADDPG_PseudoCode.png)
+![MADDPG_Algorithm](MADDPG_PseudoCode.PNG)
 (See Paper 02275 )
 
 

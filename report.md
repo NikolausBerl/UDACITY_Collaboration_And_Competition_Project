@@ -65,15 +65,12 @@ Description of this overview:
 * Q_1, Q_2 are the Q-Values generated from the Critic-Networks.
 These generated information are used to update the network-parameters.
 
-
 ![MADDPG_Functional_Overview](MADDPG_Science_Paper_Picture.PNG)
 
 ##### MADDPG --> pseudocode
+Pseudocode below taken from Paper 02275
 
 ![MADDPG_Algorithm](MADDPG_PseudoCode.PNG)
-
-(See Paper 02275 )
-
 
 #### Neural Network Architecture
 

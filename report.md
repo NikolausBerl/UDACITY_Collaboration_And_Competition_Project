@@ -65,12 +65,12 @@ Description of this overview:
 * Q_1, Q_2 are the Q-Values generated from the Critic-Networks.
 These generated information are used to update the network-parameters.
 
-![MADDPG_Functional_Overview](MADDPG_Science_Paper_Picture.PNG)
+![MADDPG_Functional_Overview](./MADDPG_Science_Paper_Picture.PNG)
 
 ##### MADDPG --> pseudocode
 Pseudocode below taken from Paper 02275
 
-![MADDPG_Algorithm](MADDPG_PseudoCode.PNG)
+![MADDPG_Algorithm](./MADDPG_PseudoCode.PNG)
 
 #### Neural Network Architecture
 
@@ -124,7 +124,7 @@ the convergence behaviour of the system
 
 #### Training result
 The expected score-result of 0.5 is shown in the picture below:<br/>
-![result_diagramm](result_diagramm.PNG)
+![result_diagramm](./result_diagramm.PNG)
 
 
 #### The Tennis_Player.ipynb
@@ -140,14 +140,12 @@ Below I added  3 different learning-levels of the Tennis-Players <br/> <br/>
 **Training level 1:** (poore player) <br/>
 The actor of player one is trained with a score-target of 0.1 <br/>
 The actor of player two is trained with a score-target of 0.1
-
-
-<img src="TennisPlayer_Level_01.gif" width="50%" align="top-left" alt="" title="Tennis-Player" />
+<img src="./TennisPlayer_Level_01.gif" width="50%" align="top-left" alt="" title="Tennis-Player" />
 
 **Training level 2:** (medium player with mixed levels) <br/>
 The actor of player one is trained with a score-target of 0.1 <br/>
 The actor of player two is trained with a score-target of 0.3 <br/>
-<img src="TennisPlayer_Level_02.gif" width="50%" align="top-left" alt="" title="Tennis-Player" /> <br/>
+<img src="./TennisPlayer_Level_02.gif" width="50%" align="top-left" alt="" title="Tennis-Player" /> <br/>
 
 
 
@@ -156,7 +154,7 @@ The actor of player two is trained with a score-target of 0.3 <br/>
 The actor of player one is trained with a score-target of 0.5 <br/>
 The actor of player two is trained with a score-target of 0.5<br/>
 
-<img src="TennisPlayer_Level_03.gif" width="50%" align="top-left" alt="" title="Tennis-Player" />
+<img src="./TennisPlayer_Level_03.gif" width="50%" align="top-left" alt="" title="Tennis-Player" />
 <br/>
 <br/>
 

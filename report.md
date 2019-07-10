@@ -125,7 +125,7 @@ the convergence behaviour of the system
 
 #### Training result
 The expected score-result of 0.5 is shown in the picture below:
-![result-diagramm](result_diagramm.png)
+![result-diagramm](result_diagramm.PNG)
 
 
 #### The Tennis_Player.ipynb

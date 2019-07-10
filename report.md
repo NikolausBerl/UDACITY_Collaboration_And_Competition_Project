@@ -65,11 +65,11 @@ Description of this overview:
 * Q_1, Q_2 are the Q-Values generated from the Critic-Networks.
 These generated information are used to update the network-parameters.
 
-![MADDPG_Functional_Overview](./maddpg_process.PNG)
+![MADDPG_Functional_Overview](./maddpg_process.png)
 
 ##### MADDPG --> pseudocode
 
-![MADDPG_Algorithm](./maddpg_pseudoCode.PNG)
+![MADDPG_Algorithm](./maddpg_pseudocode.png)
 
 #### Neural Network Architecture
 
@@ -123,7 +123,7 @@ the convergence behaviour of the system
 
 #### Training result
 The expected score-result of 0.5 is shown in the picture below:<br/>
-![result_diagramm](./result_diagramm.PNG)
+![result_diagramm](./Result_Diagramm.png)
 
 
 #### The Tennis_Player.ipynb
@@ -136,18 +136,18 @@ the learning process. I added three examples as gif-plays
 
 #### Further results
 Below I added  3 different learning-levels of the Tennis-Players <br/> <br/>
+
 **Training level 1:** (poore player) <br/>
 The actor of player one is trained with a score-target of 0.1 <br/>
-The actor of player two is trained with a score-target of 0.1
-<img src="./TennisPlayerLevel01.gif" width="50%" align="top-left" alt="" title="Tennis-Player" />
+The actor of player two is trained with a score-target of 0.1 <br/>
+<img src="./TennisPlayerLevel01.gif" width="50%" align="top-left" alt="" title="Tennis-Player" /> <br/>
+
 
 **Training level 2:** (medium player with mixed levels) <br/>
 The actor of player one is trained with a score-target of 0.1 <br/>
 The actor of player two is trained with a score-target of 0.3 <br/>
 <img src="./TennisPlayerLevel02.gif" width="50%" align="top-left" alt="" title="Tennis-Player" /> <br/>
-
-
-
+<br/>
 
 **Training level 3:** (best players)<br/>
 The actor of player one is trained with a score-target of 0.5 <br/>

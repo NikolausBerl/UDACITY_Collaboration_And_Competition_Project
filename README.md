@@ -1,5 +1,5 @@
 
-<img src="./attachments/udacityTennisPlayer.gif" width="80%" align="top-left" alt="" title="My Banana Agent" />
+<img src="./attachments/UdacityTennisPlayer.gif" width="80%" align="top-left" alt="" title="My Banana Agent" />
 
 ### Project 3: Collaboration and Competition
 (realized with MADDPG-Algorithm)

@@ -22,7 +22,7 @@ his "cooperative" predictions.
 One new and sucessful algorithm (from 2018) is the 
 "Multi-Agent-Actor-Critic for Mixed Cooperative-Competitive Environments" 
 algorithm, in short MADDPG.
-As recommended in the Udacity-Course, I implemented my solutiln by following the MAADDG-Algorithm according to the 
+As recommended in the Udacity-Course, I implemented my solution by following the MAADDG-Algorithm according to the 
 arxiv-science-paper [1706.02275](https://arxiv.org/pdf/1706.02275.pdf)
 
 MADDP is an extension of the Actor-Critic-Policy-Gradient methode (DDPG).
@@ -73,23 +73,23 @@ These generated information are used to update the network-parameters.
 ![MADDPG_Algorithm](./attachments/maddpg_pseudocode.png)
 
 #### Neural Network Architecture
-I tested the system with differend quantities for the hidden-layer notes.
+I tested the system with differend quantities for the hidden-layer nodes.
 Surprisingly for me was, that this did not remarcable influence the score-result.
 Therefore I used  small note-numbers to have better computaional performance during training-time.
 
 ##### The Actor 
 
 * Input-Layer with 24 (state size) 
-* First hidden Layers  with the 64 notes (input 24 nodes of the state-space) and Relu-Activation Function
-* Second hidden Layer with 32 notes input (input 64 notes) and Relu-Activation Function
-* Output Layer 2 notes for continuous output values-Vector and tangh Activation Function
+* First hidden Layers  with the 64 nodes (input 24 nodes of the state-space) and Relu-Activation Function
+* Second hidden Layer with 32 nodes input (input 64 nodes) and Relu-Activation Function
+* Output Layer 2 nodes for continuous output values-Vector and tangh Activation Function
 
 ##### Critic Network
 * Input-Layer with 24 (state-size) + 2*2 (action size)
-* First hidden Layers  with the 64 notes and Relu-Activation Function
-* Second hidden Layer with 32 notes and Relu-Activation Function
-* Third hidden Layer with 16 notes and Relu-Activation Function
-* Output Layer with 1  note for the Q-value
+* First hidden Layers  with the 64 nodes and Relu-Activation Function
+* Second hidden Layer with 32 nodes and Relu-Activation Function
+* Third hidden Layer with 16 nodes and Relu-Activation Function
+* Output Layer with 1  node for the Q-value
 
 
 ##### Code adaptation
@@ -100,7 +100,7 @@ The main points of the Code adaptation were:
 the critic-network resceives the action-information of the other agent.
 These needed some changes in the method.py-Module.
 * Create a **unique** Replay-Buffer
-* Create a program make to make run the players.
+* Create a program to make run the tennis-players.
 
 
 ##### Hyperparameter-definition/finding
